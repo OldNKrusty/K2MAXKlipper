@@ -1,0 +1,23 @@
+As well it appears that the original Trigorilla_SPE_A_V1.0.0 mainboard (to be referred to as SPE going forward) uses genuine TMC2209 stepper driver ICs whereas the replacement Trigorilla_PRO_B_V1.0.2 board (to be referred to as PRO_B) uses GC6609 stepper driver ICs and the two are not 100% setting compatible/interchangeable but they are pin compatible.  If a driver IC fails they SHOULD be able to be directly replaced with genuine TMC2209 ICs.
+
+*********************************************
+
+The default acceleration value of 10000 with the SPE is FAR too high and will cause issues, specifically on the Y axis.  The PRO_B max acceleration should be capped at 3000 in the printer.cfg file.  I personally chose to cap my max acceleration at 2500.  Due to the large mass of the bed I have no expectations of printing at breakneck speeds.  I would prefer my prints to succeed slowly than fail quickly.
+
+*********************************************
+
+You WILL also need to manually set the VRef for each stepper driver to ensure the correct current for each axis.  Please start with the below START values and adjust as you see fit without exceeding the MAX values.  If you find the motors begin running hot and start skipping steps you will need to lower the VRef in 0.02V increments.  Lowering by more than 0.25V is not advised as this will lower the current too much.  
+
+START  Vref             MAX Vref
+E: 0.60V   0.75A	E: 0.64V   0.8A
+X: 0.96V   1.2A		X: 1.12V   1.4A
+Y: 1.28V   1.6A		Y: 1.52V   1.9A
+Z: 1.12V   1.4A		Z: 1.44V   1.8A (dual steppers running in parallel = 0.9A for each stepper)
+
+*********************************************
+
+You WILL need to ensure adequate case cooling so please be certain to leave enough room for the case fan to ventilate the case.  It is also not a bad idea to replace the stepper driver heatsinks with larger 10*10*10mm heatsinks to increase the mass and surface area for better IC cooling ESPECIALLY if you are running higher currents.  Setting motor current too high can significantly increase the temperature and dramatically shorten the life of the stepper driver ICs. Use or larger, higher mass heatsinks can HELP mitigate this but not eliminate it. I would advise using Vref as close to the START settings noted and printing slower to maximize stepper driver life.
+
+*********************************************
+
+Even though the heated bed does come with a minimal amount of insulation I HIGHLY advise adding an aluminized foam insulation to help retain heat and reflect it back into the bed.  This will help the bed heat faster and remain at a stable temperature.  It will also help prevent the heat from being radiated to the top of the case and this in turn will keep the case internals cooler.  I use a 1/4" thick self-adhesive aluminium backed foam designed for sound deadening and thermal insulation in automobiles.  Similar to this: https://www.amazon.com/Car-Heat-Sound-Deadening-Insulation/dp/B0BNPZZ71X/ref=sr_1_4?sr=8-4
