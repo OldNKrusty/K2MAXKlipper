@@ -95,6 +95,7 @@ Leave it to fully dry/cure (I left it overnight) and then remove the clamps to s
 
 That is all for the board replacement and case modifications.
 
+![new board installed](images/new_board_installed.jpg)
 
 Now you need to modify the wire harness to the printhead. The mainboard end connector of the wire harness will need to be modified but the printhead connector will be left as-is and this will allow you to use the stock red ducted printhead.  
 As the replacement mainboard has a 22 pin connector and the original mainboard (which has now been removed) uses a 24 pin connector you will have to trim one pair of pins off of the edge of the connector.  
@@ -163,7 +164,7 @@ The only other modifications REQUIRED are to the Z motor connectors.
 The new board uses a 7 pin connector but the cables have a 4 pin connector with 2 alignment tabs.  
 You will need to trim off the one tab where the red arrows in image 7 are pointing.   
 
-![image7](images/image7.jpg)
+![image7](images/image7.png)
 
 Be sure to insert the connectors as shown in image 7.  
 The 3 unconnected pins are not used. Do not simply try to force the connector in unmodified as you stand a VERY good chance of damaging the board connector or the board itself.
