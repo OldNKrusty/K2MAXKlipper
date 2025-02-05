@@ -11,22 +11,22 @@ Please pay special attention to the section on the accelerometers.  This is an O
 
 Parts required:
 
-Trigorilla_PRO_B_V1.0.2 mainboard
-Raspberry Pi or Pi alternative to run Klipper (I use a BTT Pi adapter with CB1 board but an older laptop running Linux will work perfectly fine as well)
-Hole cutout template and cover plate (3D print them from included STLs)
+- Trigorilla_PRO_B_V1.0.2 mainboard
+- Raspberry Pi or Pi alternative to run Klipper (I use a BTT Pi adapter with CB1 board but an older laptop running Linux will work perfectly fine as well)
+- Hole cutout template and cover plate (3D print them from included STLs)
 
 
 Tools Required:
 
-2.5mm Allen/hex wrenches
-Digital multimeter with continuity mode
-Dremel tool with fiberglass cutoff wheels
-Small fine file
-Super glue
-A working 3D printer to print off required parts (you can print them on your MAX before you do the mod)
-xacto knife to trim connectors (I prefer #11 blade)
-zip ties for cable management
-double sided tape
+- 2.5mm Allen/hex wrenches
+- Digital multimeter with continuity mode
+- Dremel tool with fiberglass cutoff wheels
+- Small fine file
+- Super glue / epoxy
+- A working 3D printer to print off required parts (you can print them on your MAX before you do the mod)
+- xacto knife to trim connectors (I prefer #11 blade)
+- zip ties for cable management
+- double sided tape
 
 
 
