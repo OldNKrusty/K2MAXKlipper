@@ -196,6 +196,8 @@ All images, STLs, printer.cfg and additional notes have been included in the zip
 Please feel free to modify the STLs to suit your liking.  
 If you have any questions regarding this project please feel free contact me on Reddit (OldNKrusty) or by email at atomicmoped@hotmail.com
 
+If you didn't come across it yet, visit [Kobra2Max Insights](https://1coderookie.github.io/Kobra2MaxInsights/) - it's a comprehensive infosite specifically about the Kobra 2 Max.  
+
 Enjoy your new Klipperized Kobra 2 MAX.  
 
 ---
